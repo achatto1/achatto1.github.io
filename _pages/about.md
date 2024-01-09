@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Ph.D. Candidate, Computer Science, Johns Hopkins University</a>.
+subtitle: <a href='#'>Ph.D. Candidate, Computer Science, Johns Hopkins University</a>. achatto1 at jhu at edu dot com
 
 profile:
   align: right
@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Office: 322, Clark Hall, JHU </p>
     <p>Baltimore, MD, 21218</p>
-    <p>achatto1 at jhu at edu dot com</p>
 
 
 news: true  # includes a list of news items
