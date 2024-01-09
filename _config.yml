@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Aditya
+first_name: [Aditya]
 middle_name: 
-last_name: Chattopadhyay
+last_name: [Chattopadhyay]
 email: achatto1@jh.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Machine Learning research with a special focus on Explainable AI. 
