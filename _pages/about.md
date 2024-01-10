@@ -19,10 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+## About me
 I am currently a Ph.D. candidate in the Computer Science Department at the Johns Hopkins University 
-(JHU). My advisors are Prof. René Vidal and Prof. Donald Geman. Before JHU I did my MS in Computational Natural Sciences and B.Tech in Computer Science from the Indian Institute of Information Technology, India.
+(JHU). My Ph.D. advisors are <a href="http://vision.jhu.edu/rvidal.html">Prof. René Vidal</a> and <a href="https://www.cis.jhu.edu/people/faculty/geman/">Prof. Donald Geman</a>. My Ph.D. dissertation topic is "An Information-theoretic Framework for Designing Interpretable Predictors".
 
+Before JHU I did my M.S. in Computational Natural Sciences and B.Tech in Computer Science from the International Institute of Information Technology, Hyderabd (IIIT-H). My M.S. advisor was <a href="https://www.cis.jhu.edu/people/faculty/geman/">Prof. U. Deva Priyakumar</a>. My M.S. dissertation topic is "A probabilistic framework for constructing temporal relations in Monte Carlo trajectories".
 
-My current research is on developing Machine Learning (ML) algorithms who decision-making process can be explained to a human (who may not have prior experience with ML). As ML algorithms are deployed in critical decision-making areas like finance and healthcare, interpretability of these algorithms is essential! To know more about my work, visit Projects.
+## Research Interests
+My current research is on developing Machine Learning (ML) algorithms whose decision-making process can be explained to a human (who may not have prior experience with ML). As ML algorithms are deployed in critical decision-making areas like finance and healthcare, the interpretability of these algorithms is essential! To know more about my work, visit Projects.
 
-Apart from developing ML algorithms, I am also keenly interested in their application in biology. In the past, I worked on applying ML techniques to understand unfolding in protein and RNA moleculars from molecular dynamic trajectories. To know more about this work, visit Projects.
+Apart from developing ML algorithms, I am also keenly interested in their application in biology. In the past, I worked on developing ML techniques to understand the unfolding of biomolecules (proteins + RNAs) from their molecular dynamic trajectories. To know more about this work, visit Projects.
