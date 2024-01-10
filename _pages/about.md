@@ -24,7 +24,7 @@ I am currently a Ph.D. candidate in the Computer Science Department at the Johns
 (JHU). My Ph.D. advisors are <a href="http://vision.jhu.edu/rvidal.html">Prof. René Vidal</a> and <a href="https://www.cis.jhu.edu/people/faculty/geman/">Prof. Donald Geman</a>. 
 Ph.D. dissertation topic: *An Information-theoretic Framework for Designing Interpretable Predictors*.
 
-Before JHU I did my M.S. in Computational Natural Sciences and B.Tech in Computer Science from the International Institute of Information Technology, Hyderabd (IIIT-H). My M.S. advisor was <a href="https://www.cis.jhu.edu/people/faculty/geman/">Prof. U. Deva Priyakumar</a>. 
+Before JHU I did my M.S. in Computational Natural Sciences and B.Tech in Computer Science from the International Institute of Information Technology, Hyderabd (IIIT-H). My M.S. advisor was <a href="https://devalab.in">Prof. U. Deva Priyakumar</a>. 
 M.S. dissertation topic: *A probabilistic framework for constructing temporal relations in Monte Carlo trajectories*.
 
 ## Research Interests
