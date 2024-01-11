@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Presenting a <a href="/assets/pdf/DeepMath2022-IP-2.pdf class="btn btn-sm z-depth-0" role="button">poster</a> at DeepMath 2022. 
+Presenting a <a href="/assets/pdf/DeepMath2022-IP-2.pdf ">poster</a> at DeepMath 2022. 
 
 
