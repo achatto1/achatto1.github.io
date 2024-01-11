@@ -110,21 +110,3 @@ programme.
 Representations (ICLR) 2023, 2024; Neural Information Processing Systems (NeurIPS) 2023.
     - Journal reviewer: Journal of Machine Learning Research (JMLR), Computer Vision and Image Understanding (CVIU),
 Transactions on Neural Networks and Learning Systems (TNNLS).
-
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
