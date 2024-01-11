@@ -1,12 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching Experience
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+1. Fall 2023: Guest Lecturer for  Generative Models at University of Pennsylvania.
+	- Invited by Prof. René Vidal.
+	- Gave two lectures:
+	  - <u>Topic 1:</u> Basics of Graph Neural Networks and their application to indoor scene synthesis using Graph Variational Autoencoders.
+	  - <u>Topic 2:</u> Application of deep generative models for explainable-AI.
 
-Organize your courses by years, topics, or universities, however you like!
+2. Fall 2022: Teaching Assistant for 601.475/675: Machine Learning at Johns Hopkins University.
+   - Conducted recitation sessions; designed homework assignments, exam papers, and grading rubrics; served as mentor for course projects and was responsible for their final evaluations; held weekly office hours.
