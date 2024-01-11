@@ -16,4 +16,9 @@ nav_order: 6
 
 
 2. **Fall 2022: Teaching Assistant for 601.475/675: Machine Learning at Johns Hopkins University.**
-   - Conducted recitation sessions; designed homework assignments, exam papers, and grading rubrics; served as mentor for course projects and was responsible for their final evaluations; held weekly office hours.
+   - Instructors: Prof. Mark Dredze & Prof. Anqi Liu
+   - Responsibilities:
+	   - Conducted recitation sessions; 
+	   - Designed homework assignments,exam papers, and grading rubrics; 
+	   - Served as mentor for course projects and was responsible for their final evaluations; 
+	   - Held weekly office hours.
