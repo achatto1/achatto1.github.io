@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate, Johns Hopkins University. <b>Email:</b> achatto1 at jhu dot edu dot com
 
