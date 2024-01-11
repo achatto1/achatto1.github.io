@@ -5,6 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Presenting a <a href="/assets/pdf/ip_omp_poster.png">poster</a> at DeepMath 2023. 
-
+Presenting a <a href="https://achatto1.github.io/assets/pdf/ip_omp_poster.png">poster</a> at DeepMath 2023. 
 
