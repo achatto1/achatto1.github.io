@@ -31,7 +31,7 @@
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
+      organization: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
         - Description 1.
@@ -41,7 +41,7 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
+      company: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
         - Description 1.
