@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate, Johns Hopkins University. **Email:** achatto1 at jhu dot edu dot com
+subtitle: Ph.D. Candidate, Johns Hopkins University. <b>Email:</b> achatto1 at jhu dot edu dot com
 
 profile:
   align: right
