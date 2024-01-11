@@ -24,8 +24,13 @@
         - Advisor - Prof. U. Deva Priyakumar
         - Thesis - A probabilistic framework for constructing temporal relations in Monte Carlo trajectories.
     - title: B.Tech. in Computer Science
-      institution: International Insitute of Information Technology, Hyderabad
+      institution: International Insitute of Information Technology (IIIT), Hyderabad
       year: 2018
+
+- title: Areas of Interests
+  type: list
+  contents:
+    - Explainable AI, Computer Vision, Optimization Methods, Probabilistic Graphical Models, Information Theory, Generative Models
         
 - title: Work Experience
   type: time_table
@@ -45,11 +50,11 @@
       description:
         - Supervisor - Prof. Vineeth Balasubramanian
         - Worked on developing algorithms for explainable AI.
-          - Developed Grad-CAM++ which is now a popular method for interpreting decisions made by a CNN, publised at WACV 2018.
-          - Developed Causal Attributions, a method for interpretating decisions made by a deep network build from first principles of causality. This work was published at ICML 2019.
+        - Developed Grad-CAM++ which is now a popular method for interpreting decisions made by a CNN, publised at WACV 2018.
+        - Developed Causal Attributions, a method for interpretating decisions made by a deep network build from first principles of causality. This work was published at ICML 2019.
 
     - title: Research Assistant
-      institution: International Institute of Information Technology, Hyderabad
+      institution: International Institute of Information Technology (IIIT), Hyderabad
       year: Jan 2017 - July 2017
       description:
         - Supervisor - Prof. U Deva Priyakumar
@@ -68,7 +73,7 @@
   contents:
     - title: <a href="https://github.com/r-zip/ip-omp">IP-OMP</a>
       year: 2023
-      description: A sparse-coding algorithm with applications to explainable-AI for image classificatiom problems.
+      description: A sparse-coding algorithm with applications to explainable-AI for image classification problems.
 
     - title: <a href="https://github.com/ryanchankh/VariationalInformationPursuit">Variational Information Pursuit</a>
       year: 2022
@@ -84,30 +89,42 @@
 
 
 
-- title: Honors and Awards
+- title: Achievements
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Awarded the MINDS Summer & Spring Fellowships.
+    - year: 2018
       items: 
-        - Max Planck Medal
+        - Awarded Gold Medal for outstanding academic achievement at IIIT, Hyderabad (given to students with the highest
+cumulative grade point average [CGPA] in graduating class).
+        - Consistently in Dean’s List for all semesters in IIIT, Hyderabad which is awarded to top 15% of students in each
+programme.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Other Interests
+- title: Services
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Conference Reviewer: International Conference on Machine Learning (ICML) 2021, 2023; International Conference on Learning
+Representations (ICLR) 2023, 2024; Neural Information Processing Systems (NeurIPS) 2023.
+    - Journal reviewer: Journal of Machine Learning Research (JMLR), Computer Vision and Image Understanding (CVIU),
+Transactions on Neural Networks and Learning Systems (TNNLS).
+
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
