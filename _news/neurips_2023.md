@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Our paper on an information theoretic perspective of Orthogonal Matching Pursuit and its applications to explainable AI was accepted at NeurIPS 2023 as a spotlight presentation! (acceptance rate: 3\%).
+Our paper on an information theoretic perspective of Orthogonal Matching Pursuit and its applications to explainable AI was accepted at NeurIPS 2023 as a spotlight presentation! (acceptance rate: 3%).
 
 

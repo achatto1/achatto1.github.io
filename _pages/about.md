@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Ph.D. Candidate, Johns Hopkins University</a>. achatto1 at jhu dot edu dot com
+subtitle: Ph.D. Candidate &ast; Johns Hopkins University &ast;  **Email:** achatto1 at jhu dot edu dot com
 
 profile:
   align: right
@@ -28,6 +28,6 @@ Before JHU I did my M.S. in Computational Natural Sciences and B.Tech in Compute
 **M.S. dissertation topic:** *A probabilistic framework for constructing temporal relations in Monte Carlo trajectories*.
 
 ## Research Interests
-My current research is on developing Machine Learning (ML) algorithms whose decision-making process is human interpretable (users may not be ML experts themselves). As ML algorithms are deployed in critical decision-making areas like finance and healthcare, the interpretability of these algorithms is essential! To know more about my work, visit Projects.
+My current research involves developing Machine Learning (ML) algorithms that not only make accurate predictions but also provide human-interpretable explanations for their predictions (the users of these algorithms may not be ML experts themselves). Given that ML algorithms are increasingly being deployed in critical decision-making areas such as finance and healthcare, ensuring the interpretability of these algorithms is essential. For more information about my work, please visit the Projects section.
 
-Apart from developing ML algorithms, I am also keenly interested in their application in biology. In the past, I worked on developing ML techniques to understand the unfolding of biomolecules (proteins + RNAs) from their molecular dynamic trajectories. To know more about this work, visit Projects.
+Apart from developing ML algorithms, I am also keenly interested in their application in biology. In the past, I worked on developing ML techniques to understand the unfolding of biomolecules (proteins + RNAs) from their molecular dynamic trajectories. To know more about this work, visit the Projects section.
