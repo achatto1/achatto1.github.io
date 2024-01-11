@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-1. Fall 2023: Guest Lecturer for  Generative Models at University of Pennsylvania.
+1. Fall 2023: Guest Lecturer for ESE6800-004: Deep Generative Models at University of Pennsylvania.
 	- Invited by Prof. René Vidal.
 	- Gave two lectures:
 	  - <u>Topic 1:</u> Basics of Graph Neural Networks and their application to indoor scene synthesis using Graph Variational Autoencoders.
