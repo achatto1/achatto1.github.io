@@ -48,7 +48,7 @@
       institution: Indian Institute of Technology (IIT), Hyderabad
       year: Aug 2018 - Jun 2018
       description:
-        - Supervisor - Prof. Vineeth Balasubramanian
+        - Supervisor - Prof. Vineeth N Balasubramanian
         - Worked on developing algorithms for explainable AI.
         - Developed Grad-CAM++ which is now a popular method for interpreting decisions made by a CNN, publised at WACV 2018.
         - Developed Causal Attributions, a method for interpretating decisions made by a deep network build from first principles of causality. This work was published at ICML 2019.
