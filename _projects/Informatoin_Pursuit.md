@@ -52,13 +52,13 @@ by carrying out the minimal number of tests on average. IP uses mutual informati
 
 2. A drawback of the previous approach was that it relied on learning good generative models from that that allow for tractable inference. However, this is a challenging problem in high dimensions. Notice that, we only require a function that learns to choose the most informative next question and not in the explicit value of the mutual information of that query's answer about the prediction variable. Using this insight, in {% cite chattopadhyay2022variational %}, we propose a variational characterization of IP, called Variational Information Pursuit (V-IP). This characterization provides us with a non-convex objective that can be efficiently optimized using stochastic gradients and deep networks without the need of a generative model. V-IP allowed extending our framework to large scale datasets like Cifar-100 and SymCAT-300 (a medical diagnosis dataset), where learning tractable generative models is challenging. 
 
-    <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/traj_main.png" title="IP in action" class="img-fluid rounded z-depth-1" %}
-        </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/traj_main.png" title="IP in action" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-        <b>(a) V-IP on CIFAR-10.</b> In column 1 row 1, we show the observed image, and in column 1 row 2, we show the label distribution before V-IP observes any patches. In the subsequent columns, row 1 indicates the patches revealed (the history) so far and row 2 shows the corresponding posterior over the labels given this history. <b>(b) V-IP on SymCAT-200.</b> Each row in the heatmap shows the posterior of the disease labels given history. We show the top-10 most probable diseases out of 200. The y-axis indicates the corresponding symptom queried in each iteration by V-IP. We use the colour scheme that red denotes a "No" answer while green denotes a "Yes" answer. <b>(c) V-IP on CUB-200.</b>  The observed image is shown on the right. The heatmap shows the posterior, similar to (b).
-    </div>
+</div>
+<div class="caption">
+    <b>(a) V-IP on CIFAR-10.</b> In column 1 row 1, we show the observed image, and in column 1 row 2, we show the label distribution before V-IP observes any patches. In the subsequent columns, row 1 indicates the patches revealed (the history) so far and row 2 shows the corresponding posterior over the labels given this history. <b>(b) V-IP on SymCAT-200.</b> Each row in the heatmap shows the posterior of the disease labels given history. We show the top-10 most probable diseases out of 200. The y-axis indicates the corresponding symptom queried in each iteration by V-IP. We use the colour scheme that red denotes a "No" answer while green denotes a "Yes" answer. <b>(c) V-IP on CUB-200.</b>  The observed image is shown on the right. The heatmap shows the posterior, similar to (b).
+</div>
 
 3. TODO
