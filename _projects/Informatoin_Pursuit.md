@@ -58,6 +58,7 @@ by carrying out the minimal number of tests on average. IP uses mutual informati
     </div>
 </div>
 <div class="caption">
-    **(a) V-IP on CIFAR-10.** In column 1 row 1, we show the observed image, and in column 1 row 2, we show the label distribution before V-IP observes any patches. In the subsequent columns, row 1 indicates the patches revealed (the history) so far and row 2 shows the corresponding posterior over the labels given this history. **(b) V-IP on SymCAT-200.** Each row in the heatmap shows the posterior of the disease labels given history. We show the top-10 most probable diseases out of 200. The y-axis indicates the corresponding symptom queried in each iteration by V-IP. We use the colour scheme that red denotes a ``No" answer while green denotes a ``Yes" answer. **(c) V-IP on CUB-200.**  The observed image is shown on the right. The heatmap shows the posterior, similar to (b).
+    <b>(a) V-IP on CIFAR-10.</b> In column 1 row 1, we show the observed image, and in column 1 row 2, we show the label distribution before V-IP observes any patches. In the subsequent columns, row 1 indicates the patches revealed (the history) so far and row 2 shows the corresponding posterior over the labels given this history. <b>(b) V-IP on SymCAT-200.</b> Each row in the heatmap shows the posterior of the disease labels given history. We show the top-10 most probable diseases out of 200. The y-axis indicates the corresponding symptom queried in each iteration by V-IP. We use the colour scheme that red denotes a "No" answer while green denotes a "Yes" answer. <b>(c) V-IP on CUB-200.</b>  The observed image is shown on the right. The heatmap shows the posterior, similar to (b).
 </div>
 
+3. TODO
