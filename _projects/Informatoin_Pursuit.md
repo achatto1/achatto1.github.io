@@ -48,18 +48,14 @@ would like to promote shorter query-answer chains.
 Information Pursuit (proposed by Geman & Jedynak, 1996) is a greedy heuristic used in active testing problems where the goal is to select tests (queries in our context) to solve a task (prediction)
 by carrying out the minimal number of tests on average. IP uses mutual information (MI) between the query answer and the prediction variable to decide which query to select next in the sequence. Unfortunately, computing MI is difficult in high dimensions. 
 
-In {% cite chattopadhyay2022interpretable %} we propose a generative approach to the algorithm called Generative Information Pursuit, or G-IP. Specifically, we posit a graphical model wherein we assume the query answers to be conditionally independent of each other given the class label Y and some latent variable Z. This conditional independence allows for efficient computation of MI by sampling. The graphical model is learnt from data using Variational Autoencoders and the Unadjusted Langevin algorithm is utilized to carry out inference. Unlike previous approaches, this implementation of IP achieves competitive performance (for the first time) with deep networks (trained by taking all query answers as features) while being interpretable.
+1. In {% cite chattopadhyay2022interpretable %}, we propose a generative approach to the algorithm called Generative Information Pursuit, or G-IP. Specifically, we posit a graphical model wherein we assume the query answers to be conditionally independent of each other given the class label Y and some latent variable Z. This conditional independence allows for efficient computation of MI by sampling. The graphical model is learnt from data using Variational Autoencoders and the Unadjusted Langevin algorithm is utilized to carry out inference. Unlike previous approaches, this implementation of IP achieves competitive performance (for the first time) with deep networks (trained by taking all query answers as features) while being interpretable.
+
+2. A drawback of the previous approach was that it relied on learning good generative models from that that allow for tractable inference. However, this is a challenging problem in high dimensions. Notice that, we only require a function that learns to choose the most informative next question and not in the explicit value of the mutual information of that query's answer about the prediction variable. Using this insight, in {% cite chattopadhyay2022variational %}
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/VIP-illustration.png.jpg" title="Interpretable predictions by IP" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
