@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Coming soon
+description: In Progress
 nav: true
 nav_order: 3
-display_categories: [Machine Learning, Computational Biology]
+display_categories: [Current, Past]
 horizontal: false
 ---
 

@@ -4,7 +4,7 @@ title: Information Pursuit
 description: an information-theoretic framework for making interpretable predictions.
 img: assets/img/vip-thumbnail.png
 importance: 1
-category: Machine Learning
+category: Current
 related_publications: true
 ---
 
