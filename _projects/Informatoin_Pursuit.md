@@ -10,28 +10,35 @@ related_publications: true
 
 **Background**
 As deep networks are more readily deployed in taking day-to-day decisons, interpretability of these processes are becoming more and more important. In fact, the European Union now requires
-by law the "right to an explanation" for decisions made on individuals by algorithms. Initial efforts in this direction majorly focussed on <a href=""> post-hoc interpretability</a> of deep networks. However, post-hoc methods come with little guarantee as to whether the explanations they produce are accurate reflections of how the model makes its decisions. Consequently, in this project we focus on developing a framework for making decisions that is interpretable-by-design.
+by law the "right to an explanation" for decisions made on individuals by algorithms. Initial efforts in this direction majorly focussed on <a href=""> post-hoc interpretability</a> of deep networks. However, post-hoc methods come with little guarantee as to whether the explanations they produce are accurate reflections of how the model makes its predictions. Consequently, in this project we focus on developing a framework for making predictions that is interpretable-by-design.
 
-**What is interpretable explanation?**
-Unlike privacy, where notions like differentiable privacy have become central to the development of privacy-preserving AI algorithms, a major challenge in interpretable ML is the lack of a definition for interpretability. This work focuses on interpretability to the user of an AI algorithm, who may not be AI experts themselves. In this context, we argue that interpretability of an ML decision ultimately depends on the end-user and the task. For instance, in image classification problems like bird identification, a model’s decisions are considered interpretable if they can be explained through salient parts of the image whereas in medical imaging, a more detailed explanation in terms of causality and mechanism is desired. 
+**What is interpretable prediction?**
+Unlike privacy, where notions like differentiable privacy have become central to the development of privacy-preserving AI algorithms, a major challenge in interpretable ML is the lack of a definition for interpretability. This work focuses on interpretability to the user of an AI algorithm, who may not be AI experts themselves. In this context, we argue that interpretability of an ML decision ultimately depends on the end-user and the task. For instance, in image classification problems like bird identification, a model’s predictions are considered interpretable if they can be explained through salient parts of the image whereas in medical imaging, a more detailed explanation in terms of causality and mechanism is desired. 
 
 Furthermore, interpretable explanations are often compositional, constructed from a
 set of elementary units, like words in text or parts of an image. We propose to capture this user-dependent, task-specific and compositional property of explanations via the concept of a query set.
 Query sets are sets of functions, that are task-specific and interpretable to the user. For example,
 if the task is bird species identification from images, a potential query set could consist of questions
 about the presence/absence of different visual attributes of birds like beak shape, feather colour
-and so on. 
+and so on. Given such a query set, how do we make interpretable predictions? 
 
-
+**Interpretable predictions by playing 20 questions.**
+Given a query set, we propose to make predictions by playing the popular parlor game, 20 questions. In this game, the ML model sequentially asks queries about the given input (from the query set). Each query choice depends on the query-answers obtained in the sequence so far. Once, the model has obtained enough information from the query-answers a prediction is made. This process is illustrated in the figure below.
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/VIP-illustration.png.jpg" title="Interpretable predictions by IP" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Illustration of the framework for making interpretable
+    predictions. The task is image classification.
+    The user-specified query set Q consists of queries about the
+    presence or absence of different semantic attributes of objects.
+    Given an image xobs, the model proceeds by selecting
+    queries from Q until a prediction can be made with high
+    confidence.
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
